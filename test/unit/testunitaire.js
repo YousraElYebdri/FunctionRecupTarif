@@ -31,7 +31,7 @@ MesTestsUnitaires.prototype.testsTarif4 = function () {
 };
 
 MesTestsUnitaires = TestCase('TarifsTest');
-MesTestsUnitaires.prototype.testsTarif6 = function () {
+MesTestsUnitaires.prototype.testsTarif5 = function () {
     assertEquals('1000g ', 8.25, recupTarif(1000));
     assertEquals('1500g', 8.25, recupTarif(1500));
     assertEquals('1900g', 8.25, recupTarif(1900));
