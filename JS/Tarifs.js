@@ -28,7 +28,21 @@ function recupTarif (poids){
         Tarif = tarif3;
     }else if (poids < poid3){
         Tarif = tarif4;
+    }else if (poids < poid4){
+        Tarif = tarif5;
+    }else if (poids < poid5){
+        Tarif = tarif6;
+    }else if (poids < poid6){
+        Tarif = tarif7;
+    }else if (poids < poid7){
+        Tarif = tarif8;
+    }else if (poids < poid8){
+        Tarif = tarif9;
+    }else if (poids <= poid9){
+        Tarif = tarif10;
+    }else if (poids > poid9){
+        Tarif = null;
     }
-        //Tarif = null;
+
         return Tarif ;
 }
